@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage|w3schools</title>
+    <link rel="stylesheet" href="../style/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080808;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+ /* CSS for the wave effect */
+ .wave {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px; /* Adjust the height of the wave */
+            z-index: -1; /* Ensure the wave is behind other content */
+            pointer-events: none; /* Make sure the wave doesn't interfere with clicks */
+            background: linear-gradient(to bottom, black, white); /* Replace 'wave.svg' with your wave image */
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 25px; /* Adjust border radius as needed */
+  border-bottom-left-radius: 25px; /* Adjust border radius as needed */
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #10df55;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-top-right-radius: 25px; /* Adjust border radius as needed */
+  border-bottom-right-radius: 25px; /* Adjust border radius as needed */
+}
+
+form.example button:hover {
+  background: #038d38;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a{
+   text-decoration: none;
+   color: #080808;
+}
+/* a:hover{
+   
+} */
+
+.content {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button2 {
+            background-color: #029734;
+            color: white;
+            margin-left: 0%;
+            width: 56%;
+            height: 40px;
+            border-radius: 20px;
+            font-size: large;
+            border: none;
+            margin-top: 4%;
+            transition: background-color 0.3s ease;
+        }
+                .button2:hover {
+            background-color: #034217;
+        }
+
+
+        .b3 {
+            display: inline-block;
+            background-color: #363a37;
+            align-items: center;
+            color: white;
+            margin-top: 2%;
+            margin-left: 3%;
+            width: 36%;
+            height: 40px;
+            border-radius: 20px;
+            font-size: large;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+        .b3:hover {
+            background-color: black;
+        }
+
+       /* .child-div {
+            width: 350px;
+            height: 150px;
+            border-radius: 5px;
+            padding: 24px;
+            margin-top: 5%;
+            margin-left: 3%;
+            transition: background-color 0.3s ease;
+        }
+
+        .child-div:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        } */
+
+    </style>
+</head>
+<body style="background-color: #333; font-family: source sans pro; background-image: url(space.jpg); width:auto;" >
+   
+    <nav style="display: flex; align-items: center; gap: 15px; height: 50 px; background-color: white">
+     <div style="font-size: larger;">
+        <img src="w3school.png" alt="" width="60px" style="margin-left: 15px;">
+     </div>
+     <div style="display: flex; gap: 30px;padding-left: 10px; margin-top: 2px;">
+         <div style="display: flex;">
+         <div>Tutorials</div>
+         <div><img src="dn.png" alt="" width="15 px"></div>
+         </div>
+         <div style="display: flex;">
+         <div style="font-size: larger;">Certificates</div>
+         <div><img src="dn.png" alt="" width="15 px"></div>
+         </div>
+         <div style="display: flex;">
+         <div style="font-size: larger;">Services</div>
+         <div><img src="dn.png" alt="" width="15px"></div>
+         </div>
+   </div>
+     <div style="display: flex;border:rgb(173, 187, 201) solid;border-width: 2px;width: 150px;border-radius: 22px; height: 30px;margin-left: 20px;">
+        <div style="margin-left: 17px; margin-top: 7px; text-align: center;"><i style="color: rgb(163, 161, 159);">Search...</i></div>
+        <div><img src="search.png" alt="" width="15px" style="margin-left: 45px;margin-top: 7px;"></div>
+     </div>
+
+     <div style="display: flex; ">
+        <img src="mode.jpeg" alt="" width="30px" style="margin-left: 15px;">
+     </div>
+     <div style="display: flex; align-items: center; margin-left: 16%; gap: 25px;">
+         <div>
+            <button style="display: flex; gap: 6px; border-radius: 10px; width: 60px; height: 30px; border: none;background-color: white;">
+                     <img src="code.png" alt="" width="15px">
+                     <div style="font-size: larger;">Spaces</div>
+            </button>
+         </div>
+         <div style="display: flex; gap: 10px;">
+            <button style="display: flex;gap: 6px; border-radius: 10px; width: 130px; height: 30px; border: none;background-color: white;">
+                  <img src="shopping-cart.png" alt="" width="15px" style="margin-left: 4px;">
+                  <div style="font-size: larger;">Get Certified</div>
+            </button>
+         </div>
+         <div style="display: flex; padding-bottom: 35px; ">
+         <div style="position:relative;">
+            <button class="button button1" style="position: absolute; left: 48px; text-align:end; padding-right: 10px; border-radius: 20px; width: 75px; height: 30px; border: none; background-color: rgb(186, 192, 189);">LogIn</button>
+            <button style="position: absolute; left: 0px; border-radius: 20px;width: 75px; height: 30px; border: none; background-color: rgb(9, 139, 59);">SignUp</button>
+            </div>
+         </div>
+      </div>
+ </nav>
+ <div style="display: flex; width: 100% ;height: auto; ">
+   <ul>
+      <li><a class="active" href="#home">HTML</a></li>
+      <li><a href="#news">CSS</a></li>
+      <li><a href="#contact">JAVASCRIPT</a></li>
+      <li><a href="#about">PYTHON</a></li>
+      <li><a href="java">JAVA</a></li>
+      <li><a href="">PHP</a></li>
+      <li><a href="">HOW TO</a></li>
+      <li><a href="">W3.CSS</a></li>
+      <li><a href="">C</a></li>
+      <li><a href="">C++</a></li>
+      <li><a href="">C#</a></li>
+      <li><a href="">BOOTSTRAP</a></li>
+      <li><a href="">REACT</a></li>
+      <li><a href="">MYSQL</a></li>
+      <li><a href="">JQUERY</a></li>
+      <li><a href=""> EXCEL</a></li>
+    </ul>
+</div> 
+   <div style="background-image:url(space.jpg);"> 
+      <div style="margin-bottom:auto;">
+         <h1 style="font-size: 50px;text-align: center;color: white; font-family: monospace;">Learn to Code</h1>
+         <h2 style="text-align: center; margin-bottom: 10%; color: #FFF4A3;"> With the world's largest web developer site</h2>
+      </div>
+      <div>
+         <form class="example" action="/action_page.php" style="margin :auto;max-width:500px" >
+            <input type="text" placeholder="Search our tutorials,e.g:HTML" name="search2" style="font-family: Georgia;">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+      </div>
+      <div>
+         <h2 style="text-align: center; "><a href="" style="color: white;" >Not sure to where to begin</a></h2>
+      </div>
+   </div>
+<div class="wave-header" style="margin-top: 9%; height: auto;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+   <path fill="white" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,106.7C1120,75,1280,53,1360,42.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+   </path></svg>
+</div>
+<!--html-->
+<div style="background-color: #D9EEE1; width: 100%; display: flex; justify-content: center;">
+      <div style="width: 50%; text-align: center;; height: 600px; background-color: #D9EEE1;">
+       <p style="padding-top: 15%; font-weight:bolder; font-size: 50px; ">HTML</p>
+       <p style="font-size: 20px; font-weight: bold;">The language for bulding web pages</p>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <button style="background-color: #029734; color: white; margin-left: 3%; width: 36%; height: 40px; border-radius: 20px; font-size: large; border: none;">Learn Html</button>
+            <button style="background-color: #e2dea2; color: rgb(8, 8, 8); margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Video tutorial</button>
+            <button style="background-color: #0f1310; color: white; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Html Reference</button>
+            <button style="background-color: #f56fa7; color: rgb(3, 3, 3); margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Get certified</button>
+         </div>
+      </div>
+      
+      <div style="padding: 20px; background-color: #E7E9EB; width: 30%;height: 20%; margin-top: 10%; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+         
+         <h2 style="margin-top: 10%;">HTML example:</h2>
+         
+         <div style="background-color: white; border-left:4px solid #038d38; height: 240px;">
+       <pre style="color: brown; padding-top: 7%;">
+   <span style="color: blue;">&lt;</span>!DOCTYPE <span style="color: red;">html</span><span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>html<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>head<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>title<span style="color: blue;">&gt;</span><span style="color: rgb(5, 5, 5);">HTML Tutorial</span><span style="color: blue;">&lt;</span>/title<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>/head<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>body<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>h1<span style="color: blue;">&gt;</span><span style="color: black;">This is a heading</span><span style="color: blue;">&lt;</span>/h1<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>p<span style="color: blue;">&gt;</span><span style="color: black;">This is a paragraph.</span><span style="color: blue;">&lt;</span>/p<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>/body<span style="color: blue;">&gt;</span>
+   <span style="color: blue;">&lt;</span>/html<span style="color: blue;">&gt;</span>
+        </pre>
+                 <!-- style="border: none; width: 100%; height: 100%;">
+             </iframe> -->
+        
+      </div>
+      <button class="button2">Try it yourself</button>
+ </div>
+</div>
+</div>
+</div>
+
+<!--css-->
+<div style="background-color: #FFF4A3; width: 100%; display: flex; justify-content: center;">
+   <div style="width: 50%; text-align: center;; height: 600px; background-color: #FFF4A3">
+    <p style="padding-top: 15%; font-weight:bolder; font-size: 50px; ">CSS</p>
+    <p style="font-size: 20px; font-weight: bold;">The language for styling web pages</p>
+     <div style="display: flex; flex-direction: column; align-items: center;">
+         <button style="background-color: #029734; color: white; margin-left: 3%; width: 36%; height: 40px; border-radius: 20px; font-size: large; border: none;">Learn CSS</button>
+         <button style="background-color: #0f1310; color: white; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">CSS References</button>
+         <button style="background-color: #f56fa7; color: white; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Get certified</button>
+      </div>
+   </div>
+   
+   <div style="padding: 20px; background-color: #E7E9EB; width: 35%;height: 20%; margin-top: 7%; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      
+      <h2 style="margin-top: 8%;">CSS example:</h2>
+      
+      <div style="background-color: white; border-left:4px solid #038d38; width: 370px; height: 290px;">
+   <pre style="color: brown;">
+    <span style="color: brown;">body</span> <span style="color: black;">{</span><br>
+    <span style="padding-left: 1.5em; color: red;">background-color:</span> <span style="color: blue;">lightblue</span>;<br>
+    <span style="color: black;">}</span><br>
+    <span style="color: brown;">h1</span> <span style="color: black;">{</span><br>
+    <span style="padding-left: 1.5em; color: red;">color:</span> <span style="color: blue;">white</span>;<br>
+    <span style="padding-left: 1.5em; color: red">text-align:</span> <span style="color: blue;">center</span>;<br>
+    <span style="color: black;">}</span><br>
+    <span style="color: brown;">p</span> <span style="color: black;">{</span><br>
+    <span style="padding-left: 1.5em; color: red;">font-family:</span> <span style="color: blue;">verdana</span>;<br>
+    <span style="color: black;">}</span><br>
+      </pre>
+        
+            <!-- style="border: none; width: 100%; height: 100%;">
+          </iframe> -->
+     
+   </div>
+   <button class="button2">Try it yourself</button>
+</div>
+</div>
+</div>
+</div>
+<!--javascript-->
+
+<div style="background-color: #282A35 ; width: 100%; display: flex; justify-content: center;">
+   <div style="width: 50%; text-align: center;; height: 600px; background-color: #282A35 ">
+    <p style="padding-top: 15%; font-weight:bolder; font-size: 50px; color: white; ">JAVASCRIPT</p>
+    <p style="font-size: 20px; font-weight: bold; color: white;">The language for programming web pages</p>
+     <div style="display: flex; flex-direction: column; align-items: center;">
+         <button style="background-color: #029734; color: white; margin-left: 3%; width: 36%; height: 40px; border-radius: 20px; font-size: large; border: none;">Learn Javascript</button>
+         <button style="background-color: #e2dea2; color: black; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Javascript Reference</button>
+         <button style="background-color: #f56fa7; color: rgb(3, 3, 3); margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Get certified</button>
+      </div>
+   </div>
+   
+   <div style="padding: 20px; background-color: #E7E9EB; width: 36%;height: 20%; margin-top: 10%; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      
+      <h2 style="margin-top: 10%;">JAVASCRIPT example:</h2>
+      
+      <div style="background-color: white; border-left:4px solid #038d38; height: 200px; padding-top: 1%;">
+<pre style="color: brown;">
+<span style="color: blue;">&lt;</span><span style="color:brown">button</span><span style="color: red;"> onclick</span><span style="color: blue;">="myFunction()"&gt;</span><span style="color: #080808;">Click Me!</span>
+<span style="color: brown;">&lt;button</span>/<span style="color: blue;">&gt;</span>
+        
+ <span style="color: blue;">&lt;</span><span style="color: brown;">script</span><span style="color: blue;">&gt;</span>
+   <span style="color: blue;">function</span> <span style="color: black;">myFunction() {</span>
+   <span style="color: blue;">let</span> <span style="color: #080808;">x = 
+   document.getElementById(</span><span style="color: brown;">"demo"</span><span style="color: #080808;">);
+   x.style.fontSize = </span><span style="color: brown;">"25px"</span><span style="color: #080808;">;
+   x.style.color = </span><span style="color: brown;">"red"</span><span style="color: #080808;">;
+   }</span>
+   <span style="color: blue;">&lt;</span><span style="color: brown;">/script</span><span style="color: blue;">&gt;</span>
+        </pre>
+              <!-- style="border: none; width: 100%; height: 100%;">
+          </iframe> -->
+     
+   </div>
+   <button class="button2">Try it yourself</button>
+</div>
+</div>
+</div>
+</div>
+
+<!--python-->
+<div style="background-color: #F3ECEA ; width: 100%; display: flex; justify-content: center;">
+   <div style="width: 50%; text-align: center;; height: 600px; background-color: #F3ECEA ">
+    <p style="padding-top: 15%; font-weight:bolder; font-size: 50px; ">PYTHON</p>
+    <p style="font-size: 20px; font-weight: bold;">A popular programming language</p>
+     <div style="display: flex; flex-direction: column; align-items: center;">
+         <button style="background-color: #029734; color: white; margin-left: 3%; width: 36%; height: 40px; border-radius: 20px; font-size: large; border: none;">Learn Python</button>
+         <button style="background-color: #0f1310; color: white; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Python Reference</button>
+         <button style="background-color: #f56fa7; color: rgb(3, 3, 3); margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Get certified</button>
+      </div>
+   </div>
+   
+   <div style="padding: 20px; background-color: #E7E9EB; width: 35%;height: 20%; margin-top: 10%; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      
+      <h2 style="margin-top: 8%;">PYTHON example:</h2>
+      
+      <div style="background-color: white; border-left:4px solid #038d38; height: 240px;padding-top: 1%; font-size: large;">
+<pre>
+ <span style="color: blue;">if</span><span style="color: red;"> 5</span><span> &gt;</span> <span style="color: red;"> 2</span><span>:</span>
+   <span style="color: black;">print(</span><span style="color: brown;">"Five is greater than two!"</span><span>)</span>
+   </pre>
+              <!-- style="border: none; width: 100%; height: 100%;">
+          </iframe> -->
+     
+   </div>
+   <button class="button2">Try it yourself</button>
+</div>
+</div>
+</div>
+</div>
+
+<!--sql-->
+<div style="background-color: #96D4D4 ; width: 100%; display: flex; justify-content: center;">
+   <div style="width: 50%; text-align: center;; height: 600px; background-color: #96D4D4 ">
+    <p style="padding-top: 15%; font-weight:bolder; font-size: 50px; ">SQL</p>
+    <p style="font-size: 20px; font-weight: bold;">A language for accessing databases</p>
+     <div style="display: flex; flex-direction: column; align-items: center;">
+         <button style="background-color: #029734; color: white; margin-left: 3%; width: 36%; height: 40px; border-radius: 20px; font-size: large; border: none;">Learn SQL</button>
+         <button style="background-color: #0f1310; color: white; margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">SQL Reference</button>
+         <button style="background-color: #f56fa7; color: rgb(3, 3, 3); margin-top: 2%; margin-left: 3%; width: 36%; height: 40px;border-radius: 20px; font-size: large;border: none">Get certified</button>
+      </div>
+   </div>
+   
+   <div style="padding: 20px; background-color: #E7E9EB; width: 36%;height: 20%; margin-top: 10%; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      
+      <h2 style="margin-top: 10%;">SQL example:</h2>
+      
+      <div style="background-color: white; border-left:4px solid #038d38; height: 220px; width: 90%; padding-top: 3%;font-size: large;">
+ <pre>
+ <span style="color: blue;">SELECT</span><span style="color: #080808;"> * </span><span style="color: blue;">FROM </span><span style="color: #080808;">Customers</span>
+ <span style="color: blue;">WHERE</span><span style="color: #080808;"> Country=</span><span style="color: brown;">'Mexico'</span>;
+</pre>
+              <!-- style="border: none; width: 100%; height: 100%;">
+          </iframe> -->
+   </div>
+   <button class="button2">Try it yourself</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- next section -->
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="text-align: center; width:750px; height: 250px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="display: inline-block;">PHP</h1>
+      <h3 >A web server programming language</h3>
+      <button class="b3">Learn PHP</button>
+   </div>
+
+   <div style="text-align: center; width:750px; height: 250px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="display: inline-block;">jQuery</h1>
+      <h3 >A JS library for developing web pages</h3>
+      <button class="b3">Learn jQuery</button>
+   </div>
+
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="text-align: center; width:750px; height: 250px; background-color: #F3ECEA;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="display: inline-block;">Java</h1>
+      <h3 >A programming language</h3>
+      <button class="b3">Learn Java</button>
+   </div>
+
+   <div style="text-align: center; width:750px; height: 250px; background-color: #D9EEE1; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;;">
+      <h1 style="display: inline-block;">C++</h1>
+      <h3 >A programming language</h3>
+      <button class="b3">Learn C++</button>
+   </div>
+
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div class="b3" style="text-align: center; width:750px; height: 250px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="display: inline-block;color: black;">W3.CSS</h1>
+      <h4 style="color: black;">A CSS framework for faster and better responsive web pages</h4>
+      <button class="b3">Learn W3.CSS</button>
+   </div>
+
+   <div class="b3" style="text-align: center; width:750px; height: 250px; background-color: #E7E9EB; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="display: inline-block;color: black;">Bootstrap</h1>
+      <h3 style="color: black;">A CSS framework for designing better web pages</h3>
+      <button class="b3">Learn Bootstrap</button>
+   </div>
+
+</div>
+<!-- next section -->
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:750px; height: 150px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">C</a></h1>
+   </div>
+
+   <div style="width:750px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">C#</a></h1>
+   </div>
+
+</div>
+
+<!-- next section -->
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #F3ECEA;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">R</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #D9EEE1 ; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Kotlin</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Node.js</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFC0C7; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">React</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #FFF4A3 ;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">JSON</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #F3ECEA; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Vue</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #D9EEE1 ;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">MySQL</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #96D4D4; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">XML</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Sass</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Icons</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #F3ECEA;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">RWD</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #D9EEE1; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Graphics</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">SVG</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFC0C7; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Canvas</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFF4A3;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Raspberry Pi</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #F3ECEA; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Cyber Security</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #D9EEE1;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Colors</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #96D4D4; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Git</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Matplotlib</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">NumPy</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #F3ECEA;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Pandas</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #D9EEE1; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">SciPy</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">ASP</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFC0C7; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">AngularJs</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">AppML</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #F3ECEA; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Go</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #D9EEE1 ;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">TypeScript</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #96D4D4; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Django</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">MongoDB</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Statistics</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #F3ECEA;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Data Science</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #D9EEE1; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Typing Speed</a></h1>
+   </div>
+</div>
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:350px; height: 150px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">HowTo</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #FFC0C7;; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Code Game</a></h1>
+   </div>
+   <div style="width:350px; height: 150px; background-color: #FFF4A3;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Spaces</a></h1>
+   </div>
+
+   <div style="width:350px; height: 150px; background-color: #F3ECEA; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">PostgreSQL</a></h1>
+   </div>
+</div>
+<!-- next section -->
+
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:750px; height: 150px; background-color: #96D4D4;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Excel</a></h1>
+   </div>
+
+   <div style="width:750px; height: 150px; background-color: #FFF4A3; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">DSA-Data Structures and Algorithms</a></h1>
+   </div>
+</div>
+<div style="background-color: black; display: flex; width: auto;">
+   <div style="width:750px; height: 150px; background-color: #FFC0C7;border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 3%;">
+      <h1 style="text-align: center;"><a href="">Machine Learning</a></h1>
+   </div>
+
+   <div style="width:750px; height: 150px; background-color: #F3ECEA; border-radius: 5px; padding: 24px;margin-top: 5%; margin-left: 5%; margin-right: 3%;">
+      <h1 style="text-align: center;"><a href="">Artificial Intelligence</a></h1>
+   </div>
+
+</div>
+
+</body>
+</html>
